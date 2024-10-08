@@ -1,13 +1,7 @@
 import { OrbitControls } from "@react-three/drei";
+import { Camp } from "./Camp";
+import CameraRig from "./CameraRig";
 
 export const Experience = () => {
-  return (
-    <>
-      <OrbitControls />
-      <mesh>
-        <boxGeometry />
-        <meshNormalMaterial />
-      </mesh>
-    </>
-  );
+  return <Camp scale={0.5} />;
 };
